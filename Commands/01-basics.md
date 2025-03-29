@@ -22,7 +22,7 @@ $ type mv
 $ pwd # to check present working directory
 $ ls # list contents
 $ mkdir # to create directories
-
+$ echo $HOME # shows home directory
 # directories
 $ mkdir folder1 # create directory simply
 $ mkdir folder1 folder2 # create multiple directories
@@ -79,6 +79,7 @@ $ ls -l # long list
 $ ls -a # list all files including hidden files
 $ ls -lt # list files in order they are created
 $ ls -ltr # list files in reverse order
+$ ls -R # recursive listing
 
 # Getting help
 $ whatis <cmd>
