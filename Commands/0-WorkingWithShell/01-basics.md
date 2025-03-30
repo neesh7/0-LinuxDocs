@@ -66,7 +66,13 @@ $ rm -r <directory> # deleting a directory
 $ cat <filename.txt> # it is used to read files
 $ cat > files.txt # Redirect content to a file , ctrl+d to exit from editor
 
+# The touch commands magic
 $ touch hello.txt
+$ touch file1.txt file2.txt file3.txt # creating multiple file using touch
+$ touch file{1..5}.txt # using touch with wildcards to create multiple files
+$ ls -l file{1..5}.txt
+$ stat myfile.txt # shows stats timestamps wise for the file
+
 $ vim hello.txt
 $ nano hello.txt
 
