@@ -92,9 +92,3 @@ $ systemctl get-default # shows system states for systemD based init system
 $ ls -ltr /etc/systemd/system/default.target # Checking default target
 $ systemctl set-default multi-user.taregt # Updating deault target
 ```
-## File Types In Linux
-``` Everything in Linux is a file```
-![alt text](Images/filetypes-1.png)
-![alt text](Images/filetypes.png)
-![alt text](Images/filetypes-2.png)
-![alt text](Images/filetypes-3.png)
