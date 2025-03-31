@@ -24,3 +24,21 @@ $ yum remove httpd # to uninstall
 $ yum update telnet # to update a package
 $ yum update # will check and update all packages
 ```
+## DPKG ( Debian based Package manager)
+![alt text](Images/debian.png)
+ - Similar to rpm, dpkg does not honour dependecy management so we need apt or apt-get here.
+
+## APT (Advance package manager) / APT-GET
+    - APT is much powerfull than APT-GET
+![alt text](Images/apt.png)
+
+```bash
+$ sudo apt update # download package information for all sources
+$ sudo apt upgrade # used to install updates of packages available at resources.
+$ sudo apt edit-sources # it is used to update package sources
+$ sudo apt install telnet # to install
+$ sudo apt remove telnet # to uninstall
+$ sudo apt search telnet # to search a package
+$ sudo apt list # to list all installed package
+$ sudo apt list | grep "telnet" # to check any particular package is installed or not
+```
