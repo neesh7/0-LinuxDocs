@@ -28,6 +28,7 @@ $ mkdir folder1 # create directory simply
 $ mkdir folder1 folder2 # create multiple directories
 $ mkdir folder1/folderA # create sub directory inside a directory
 $ mkdir -p folder1/folderA # create parent and child directory at once
+$ mkdir folder{1..5} $ create multiple folders like folder1, folder2 .. folder5
 
 # Switching directories
 $ cd # change directory - it takes you to home directly
@@ -58,6 +59,10 @@ $ cp -r <sourceDir> <DestinationLocation> # to copy or remove any directory we d
 # deleting
 $ rm <file> # deleting a file
 $ rm -r <directory> # deleting a directory
+$ rm -r day* # removes all folder starting with day
+$ rm hello{1..5}.py # removes all hello*.py varients
+$ rm hello* # removes all file starting with hello
+$ rm *.py # removes all files with particular extention
 ```
 ### Working with the Shell - III ( Files and Directories)
 ```bash
