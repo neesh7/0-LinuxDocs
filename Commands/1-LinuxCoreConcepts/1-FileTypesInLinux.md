@@ -10,7 +10,7 @@
 Note: A Note about filesystems Hierarchy in Linux
 
 /home -> location that contains home directory for all users except root user.
-        root user data resides at /root
+         root user data resides at /root
 
 /opt -> to install any 3rd part application ( ideal to install any webapp)
 
