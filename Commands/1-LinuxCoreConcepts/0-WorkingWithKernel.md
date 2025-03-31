@@ -29,6 +29,7 @@ $ free -k # display memory info in kb
 
 $ lshw # tool to extract info about harware of system
 $ sudo lshw
+$ sudo lshw | grep "vendor" # name of the vendor for the Ethernet Controller used in this system
 ```
 
 ### Linux Boot Process

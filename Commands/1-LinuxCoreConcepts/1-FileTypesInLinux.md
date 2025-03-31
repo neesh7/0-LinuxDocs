@@ -33,5 +33,5 @@ Note: A Note about filesystems Hierarchy in Linux
 ```bash
 $ file # list all file types
 $ df -hp # prints info of all mounted file system
-$ sudo file.txt
+$ sudo file /root/firefox.deb # type of file is firefox.deb located at /root
 ```
